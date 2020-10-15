@@ -46,11 +46,11 @@ namespace IDCodeReader
         public static void HelloUser(string IDcode)
         {
             int FirstNum = Int32.Parse(IDcode[0].ToString());
-            if (FirstNum == 1  FirstNum == 3  FirstNum == 5)
+            if (FirstNum == 1 || FirstNum == 3 || FirstNum == 5)
             {
                 Console.WriteLine("Hello, Sir!");
             }
-            else if (FirstNum == 2  FirstNum == 4  FirstNum == 6)
+            else if (FirstNum == 2 || FirstNum == 4 || FirstNum == 6)
             {
                 Console.WriteLine("Hello Madam!");
             }
